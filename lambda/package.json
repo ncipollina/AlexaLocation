@@ -1,7 +1,7 @@
 {
-  "name": "aws-nodejs-typescript",
+  "name": "alexa-location",
   "version": "1.0.0",
-  "description": "Serverless webpack example using Typescript",
+  "description": "Alexa location sample project",
   "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,12 +10,12 @@
     "@types/alexa-sdk": "^1.1.1",
     "@types/aws-lambda": "0.0.22",
     "@types/node": "^8.0.57",
-    "serverless-webpack": "^4.0.0",
+    "serverless-plugin-typescript": "^1.1.5",
     "ts-loader": "^2.3.7",
     "typescript": "^2.5.2",
     "webpack": "^3.6.0"
   },
-  "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
+  "author": "Nick Cipollina",
   "license": "MIT",
   "dependencies": {
     "alexa-sdk": "^1.0.25",
