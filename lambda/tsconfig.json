@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": ".build",
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "lib": [
+      "es6",
+      "esnext"
+    ],
+    "rootDir": "./"
+  }
+}

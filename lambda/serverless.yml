@@ -1,0 +1,15 @@
+service:
+  name: alexa-location
+
+plugins:
+  - serverless-plugin-typescript
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  location:
+    handler: handler.location
+    events:
+      - alexaSkill
